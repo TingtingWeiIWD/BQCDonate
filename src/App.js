@@ -1,8 +1,14 @@
+import { Routes, Route } from "react-router-dom";
+import Support from "./pages/Support";
+import NotFound from "./pages/NotFound";
+
 function App() {
   return (
-    <div className="App">
-      Hello World
-    </div>
+    <Routes>
+      <Route path="/" element={<Support />} />
+      <Route path="/NotFound" element={<NotFound />} />
+      <Route path="*" element={<NotFound />} />
+    </Routes>
   );
 }
 
