@@ -58,12 +58,12 @@ const Navbar = () => {
         <a href="https://youtube.com/@BeijingQueerChorus" target="_blank">
           <FaYoutube className="mx-4" />
         </a>
-        <a
+        {/* <a
           href="https://instagram.com/beijing_queer_chorus?igshid=YmMyMTA2M2Y="
           target="_blank"
         >
           <FaInstagram className="mx-4" />
-        </a>
+        </a> */}
       </div>
       {/* Hamburger Icon */}
       <div onClick={handleNav} className="sm:hidden z-10">
